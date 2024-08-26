@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E21F8634-6C45-2381-2459-F030A600D112" containerWithKeyObject="EEC34BE0-4AC5-231E-FAE2-421949E5EA3A" localFKIndex="976C05B7-AE80-D6DF-3703-D41412BECAA9" name="ARBOL_HUERTO_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>96CEC86A-D884-5467-EE04-F088E3A1D909</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<referredTableLongName>HUERTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2FDA199-0295-9FAC-2D22-B947AAF72096</referredTableID>
+<keyObject>763D9CC2-764C-622B-4398-3C40C6A63AB1</keyObject>
+<referredKeyID>763D9CC2-764C-622B-4398-3C40C6A63AB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idHuerto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

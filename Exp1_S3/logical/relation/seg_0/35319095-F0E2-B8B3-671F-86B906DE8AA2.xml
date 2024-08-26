@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESPECIE-ARBOL" directorySegmentName="seg_0" id="35319095-F0E2-B8B3-671F-86B906DE8AA2">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:39:33 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<sourcePk>858F8337-7AD2-EF3A-EF11-C37A17C65BBE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8E73392-79DC-56DA-C19C-7349830A5F9A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD772895-1EE0-1B96-0268-00776B79FBD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

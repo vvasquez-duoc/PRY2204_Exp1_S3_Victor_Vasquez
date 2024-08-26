@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C99B1E0-1A2C-3DBD-DE7F-1551B04129E4" name="INJERTO">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>738769A5-AF6D-99F2-4850-C6189311FD46</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idInjerto" id="AF18C974-7C3C-AF61-DB7E-ED84A0B90CD1">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>77AD915C-3F90-BD68-88EB-245BADAC8814</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARBOL_idArbol2" id="AB400C9A-D74F-642E-5291-C11278918494">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>C73E60C9-5A86-1C21-118D-5A7EB0DF9E5C</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E93A5D8E-1273-3B08-F434-281BF35C2F97" referredColumn="01F130D4-5E18-9266-A3B1-B657B8656447"/>
+</associations>
+</Column>
+<Column name="ARBOL_idArbol" id="C03269E5-303D-69B7-6E1D-F9490FF91A6B">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>B64D44F4-67E3-736B-415B-917E5D1A2530</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA4B39BD-F674-9C29-3F7A-EB4A30F2BE5D" referredColumn="01F130D4-5E18-9266-A3B1-B657B8656447"/>
+</associations>
+</Column>
+<Column name="ARBOL_idEspecie2" id="08D4AAE3-4EEE-C4BC-8D6E-FE5FB11D0CDB">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>EF82108B-1831-2AE8-7800-565F7BCE23BB</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E93A5D8E-1273-3B08-F434-281BF35C2F97" referredColumn="9FCA0279-4EA6-61D6-A708-8019BFE14867"/>
+</associations>
+</Column>
+<Column name="ARBOL_idEspecie" id="5AB560DA-421F-CADA-0B96-C3C7AC6DC8D2">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>88B0CE02-B33B-D3E2-6303-96B6D2A38701</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA4B39BD-F674-9C29-3F7A-EB4A30F2BE5D" referredColumn="9FCA0279-4EA6-61D6-A708-8019BFE14867"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CAC4492-E928-D7FC-2238-1CB8F5BCAF2C" name="INJERTO_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>E4964DCE-E8AE-0BFC-D970-EC690508C373</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF18C974-7C3C-AF61-DB7E-ED84A0B90CD1"/>
+<colUsage columnID="AB400C9A-D74F-642E-5291-C11278918494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C976509B-8B55-80BE-C31A-A7532E292C24" name="INJERTO__IDX">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>427D077C-0361-BB17-2537-5744B413E819</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C03269E5-303D-69B7-6E1D-F9490FF91A6B"/>
+<colUsage columnID="5AB560DA-421F-CADA-0B96-C3C7AC6DC8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0063B8E-7BD5-4827-495E-8D539D0515AD" name="INJERTO_ARBOL_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>427D077C-0361-BB17-2537-5744B413E819</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C03269E5-303D-69B7-6E1D-F9490FF91A6B"/>
+<colUsage columnID="5AB560DA-421F-CADA-0B96-C3C7AC6DC8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFBC2DD9-BF16-6133-614D-D1CD392A401A" name="INJERTO_ARBOL_FKv2">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>E3429182-4BD5-7449-8B9E-9EEFAB70A5DA</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB400C9A-D74F-642E-5291-C11278918494"/>
+<colUsage columnID="08D4AAE3-4EEE-C4BC-8D6E-FE5FB11D0CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC34BE0-4AC5-231E-FAE2-421949E5EA3A" name="ARBOL">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>BD772895-1EE0-1B96-0268-00776B79FBD2</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idArbol" id="01F130D4-5E18-9266-A3B1-B657B8656447">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>BEA54626-0629-0BCF-17C3-5909B5C6CF36</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="annoPlantado" id="E379D38E-65F5-E9DD-BA48-9EE7E9D6EA6E">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>EB1A97C1-7C94-1349-29A5-0282BDF9B62B</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="annoMuerte" id="311EAE29-B67F-D7AE-C0A3-832AFFB4A020">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>F41A73CF-4EAE-EE2F-7995-01819D3887D5</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUERTO_idHuerto" id="63F4262F-E1AA-8A3E-D9DA-AE62B47B3831">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>78BD859F-6E9B-1957-5881-DDCA152AFA31</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E21F8634-6C45-2381-2459-F030A600D112" referredColumn="EB2F6A3A-5025-92A9-1678-B380819A7118"/>
+</associations>
+</Column>
+<Column name="ESPECIE_idEspecie" id="9FCA0279-4EA6-61D6-A708-8019BFE14867">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>842F8410-8D97-837E-8927-5D3A8DA480A8</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="271C6384-7775-FC3F-59F5-3DA6C522BFEC" referredColumn="20AB6C6B-FB8B-525D-136A-5532EEF3403E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E418E3B-6454-D0C6-CDB0-0EF050E039D7" name="ARBOL_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>9395930E-597D-FD94-3377-294C49247171</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F130D4-5E18-9266-A3B1-B657B8656447"/>
+<colUsage columnID="9FCA0279-4EA6-61D6-A708-8019BFE14867"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D535CD-5F2F-841C-7364-A4D2CB6C696C" name="ARBOL_ESPECIE_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>35319095-F0E2-B8B3-671F-86B906DE8AA2</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FCA0279-4EA6-61D6-A708-8019BFE14867"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976C05B7-AE80-D6DF-3703-D41412BECAA9" name="ARBOL_HUERTO_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>96CEC86A-D884-5467-EE04-F088E3A1D909</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63F4262F-E1AA-8A3E-D9DA-AE62B47B3831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

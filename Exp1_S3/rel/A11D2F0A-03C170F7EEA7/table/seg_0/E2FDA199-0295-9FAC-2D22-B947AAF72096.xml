@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2FDA199-0295-9FAC-2D22-B947AAF72096" name="HUERTO">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>1E9A1146-09A8-0703-0884-F550CB0823FB</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idHuerto" id="EB2F6A3A-5025-92A9-1678-B380819A7118">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>0977E50B-1DB3-D727-7654-FD8CE5FEBE1D</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C9E00D77-173D-7044-1872-D8DC0DA2B580">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>0131C56F-6919-81FE-9E4D-AB0FB6BA859C</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area" id="53F95E76-F1B7-4008-5E7A-C6ECA07EF594">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>F91F7141-BE34-2810-21DD-AF74D9DB3980</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="763D9CC2-764C-622B-4398-3C40C6A63AB1" name="HUERTO_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:41:17 UTC</createdTime>
+<generatorID>3EF666D2-EA5B-00C9-69EA-22D4B86DED3A</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB2F6A3A-5025-92A9-1678-B380819A7118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

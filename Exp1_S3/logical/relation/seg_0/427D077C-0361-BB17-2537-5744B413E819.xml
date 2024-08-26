@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARBOLDONANTE-INJERTO" directorySegmentName="seg_0" id="427D077C-0361-BB17-2537-5744B413E819">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:38:37 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<sourcePk>9395930E-597D-FD94-3377-294C49247171</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BD772895-1EE0-1B96-0268-00776B79FBD2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>738769A5-AF6D-99F2-4850-C6189311FD46</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

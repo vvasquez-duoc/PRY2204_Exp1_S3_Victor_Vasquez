@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD772895-1EE0-1B96-0268-00776B79FBD2" name="ARBOL">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-09 02:38:01 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idArbol" id="BEA54626-0629-0BCF-17C3-5909B5C6CF36">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-09 02:38:34 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annoPlantado" id="EB1A97C1-7C94-1349-29A5-0282BDF9B62B">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-09 02:39:55 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annoMuerte" id="F41A73CF-4EAE-EE2F-7995-01819D3887D5">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-09 02:40:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idHuerto" id="78BD859F-6E9B-1957-5881-DDCA152AFA31">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-19 02:03:09 UTC</createdTime>
+<generatorID>96CEC86A-D884-5467-EE04-F088E3A1D909</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<referedAttribute>0977E50B-1DB3-D727-7654-FD8CE5FEBE1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEspecie" id="842F8410-8D97-837E-8927-5D3A8DA480A8">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-26 23:39:33 UTC</createdTime>
+<generatorID>35319095-F0E2-B8B3-671F-86B906DE8AA2</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<referedAttribute>B13085FC-5125-D9CA-DCD2-3B64E78150EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9395930E-597D-FD94-3377-294C49247171" name="ARBOL PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-08-09 02:38:47 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="A11D2F0A-7FA6-5BCD-49E3-03C170F7EEA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEA54626-0629-0BCF-17C3-5909B5C6CF36</attributeRef>
+<attributeRef>842F8410-8D97-837E-8927-5D3A8DA480A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
